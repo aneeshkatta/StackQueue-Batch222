@@ -10,16 +10,12 @@ namespace Day14_StackQueue_Batch222
     {
         static void Main()
         {
-            Console.WriteLine("Stack Elements:");
-            LinkedListStack StackOperation = new LinkedListStack();
-            StackOperation.Push(70);
-            StackOperation.Push(30);
-            StackOperation.Push(56);
-            StackOperation.Display();
-            StackOperation.Peek();
-            StackOperation.Pop();
-            StackOperation.IsEmpty();
-            StackOperation.Display();
+            Console.WriteLine("Queue Elements are:");
+            LinkedListQueue QueueOperationobj = new LinkedListQueue();
+            QueueOperationobj.Enqueue(56);
+            QueueOperationobj.Enqueue(30);
+            QueueOperationobj.Enqueue(70);
+            QueueOperationobj.Display();
             Console.ReadKey();
         }
     }
