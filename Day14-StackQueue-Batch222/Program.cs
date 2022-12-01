@@ -11,11 +11,16 @@ namespace Day14_StackQueue_Batch222
         static void Main()
         {
             Console.WriteLine("Stack Elements:");
-            LinkedListStack linkedListStack = new LinkedListStack();
-            linkedListStack.Push(70);
-            linkedListStack.Push(30);
-            linkedListStack.Push(56);
-            linkedListStack.Display();
+            LinkedListStack StackOperation = new LinkedListStack();
+            StackOperation.Push(70);
+            StackOperation.Push(30);
+            StackOperation.Push(56);
+            StackOperation.Display();
+            StackOperation.Peek();
+            StackOperation.Pop();
+            StackOperation.IsEmpty();
+            StackOperation.Display();
+            Console.ReadKey();
         }
     }
 }
