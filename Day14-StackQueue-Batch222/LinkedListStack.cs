@@ -29,7 +29,7 @@ namespace Day14_StackQueue_Batch222
             Node temp = this.top;
             while (temp != null)
             {
-                Console.Write(temp.data + " ");
+                Console.Write(temp.data +"\n");
                 temp = temp.next;
             }
         }
@@ -40,7 +40,7 @@ namespace Day14_StackQueue_Batch222
                 Console.WriteLine("Stack is empty");
                 return;
             }
-            Console.WriteLine("{0} is in the top of the stack ", this.top.data);
+            Console.WriteLine("\n{0} is in the top of the stack ", this.top.data);
         }
 
         internal void Pop()
@@ -61,7 +61,7 @@ namespace Day14_StackQueue_Batch222
                 Peek();
                 Pop();
             }
-            Console.WriteLine(this.top + "no element to pop");
+            Console.WriteLine(this.top + "\nNo element to pop");
         }
     }
 }
