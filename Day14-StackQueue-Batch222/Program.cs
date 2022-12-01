@@ -16,6 +16,10 @@ namespace Day14_StackQueue_Batch222
             QueueOperationobj.Enqueue(30);
             QueueOperationobj.Enqueue(70);
             QueueOperationobj.Display();
+            QueueOperationobj.Dequeue(56);
+            QueueOperationobj.Dequeue(30);
+            QueueOperationobj.Dequeue(70);
+            QueueOperationobj.Display();
             Console.ReadKey();
         }
     }

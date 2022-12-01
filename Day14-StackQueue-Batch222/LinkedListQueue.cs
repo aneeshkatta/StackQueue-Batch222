@@ -39,5 +39,18 @@ namespace Day14_StackQueue_Batch222
                 temp = temp.next;
             }
         }
+        internal void Dequeue(int data)
+        {
+            if (head == null)
+            {
+                Console.WriteLine("Queue is empty");
+            }
+            else
+            {
+                Console.WriteLine("\nThe  element dequeued is : " + head.data);
+                head = head.next;
+
+            }
+        }
     }
 }
